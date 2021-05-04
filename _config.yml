@@ -24,7 +24,7 @@ email: gp10006@cam.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   A home for comments and interactive data visualisations from Prof Graham Pullan.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://grahampullan.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://grahampullan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: grahampullan
 github_username:  grahampullan
 google_analytics: "G-XM4LVCPV5C"
