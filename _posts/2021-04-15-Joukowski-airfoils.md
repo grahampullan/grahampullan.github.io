@@ -4,7 +4,7 @@ title:  "Interactive Joukowski airfoil"
 date:   2021-05-04 11:53:49 +0100
 categories: viz
 summary: "Interactive demonstration of the flow around an airfoil shape, using the Joukowski transform"
-image: "/assets/images/Joukowski_airfoil.png"
+image: "/assets/images/Joukowski_Airfoil.png"
 image_alt: "Image shows streamlines and grid around an airfoil at incidence"
 ---
 
