@@ -21,6 +21,13 @@
   {% endif %}
   <!-- end of Twitter cards -->
 
+  {% if page.usemathjax %}
+  <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+  {% endif %}
+
+
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
