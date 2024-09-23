@@ -11,7 +11,7 @@ custom_css: visualmodeller1
 ---
 
 Text here
-<video style="width: 100%; height: auto;" autoplay loop muted>
+<video style="width: 100%; height: auto;" autoplay loop muted controls>
   <source src="{{site.baseurl}}/assets/images/energy-modeller-1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
