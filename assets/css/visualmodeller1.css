@@ -1,0 +1,62 @@
+
+
+.board {
+    background-color: #d5d5de;
+    opacity: 0.8;
+    color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.board-box {
+    background: rgb(255, 255, 255);
+    opacity: 1;
+    color: rgb(14, 14, 14);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.35), 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.node-plot {
+    background: none;
+    border-width: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+
+.plot-title {
+    background: #f0e0ff;
+    opacity: 1;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+.plot-icons {
+    float: right;
+    padding-right: 5px;
+    margin: 0px;
+    vertical-align: middle;
+}
+
+.plot-icon {
+    cursor: pointer;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+}
+
+.plot-icon svg{
+    width: 0.8em;
+    height: 0.8em;
+}
+
+
+
+

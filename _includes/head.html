@@ -31,6 +31,13 @@
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
+
+  {% if page.custom_css %}
+    {% for stylesheet in page.custom_css %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ stylesheet }}.css">
+    {% endfor %}
+  {% endif %}
+
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include analytics.html -%}
   {%- endif -%}
