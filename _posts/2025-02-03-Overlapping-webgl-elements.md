@@ -191,6 +191,8 @@ Using `<div>` elements and WebGL (one fixed `<canvas>` element) works well becau
         cube.camera = camera;
     });
 
+    renderCubes();
+
     function renderCubes() {
         const containerRect = target.node().getBoundingClientRect();
         const outerDivs = d3.selectAll(".outer-div").nodes().map(d => d.getBoundingClientRect());
