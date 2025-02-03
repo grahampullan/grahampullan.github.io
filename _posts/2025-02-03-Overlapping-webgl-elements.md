@@ -67,7 +67,7 @@ These settings mean that the boxes will not be rendered in any part of the scree
 ### Best of both worlds!
 Using `<div>` elements and WebGL (one fixed `<canvas>` element) works well because we can use the DOM to manage the `<div>` locations and their depth (position in the DOM tree), and still use WebGL for speedy rendering of the data!
 
-<script type="module">
+<script type="module" defer>
     import * as d3 from 'https://cdn.skypack.dev/d3@7.0.0'; // I like to use d3 to manage the DOM
     import * as THREE from 'https://cdn.skypack.dev/three@0.132.2';
     import { OrbitControls } from 'https://cdn.skypack.dev/three@0.132.2/examples/jsm/controls/OrbitControls.js';
