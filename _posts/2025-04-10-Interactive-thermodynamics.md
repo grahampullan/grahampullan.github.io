@@ -25,7 +25,7 @@ PTES is a concept for storing excess electrical energy for use at a later time. 
 ## Interactive model
 <div id="target" width="100%" ></div>
 
-This chart is an interactive thermodynamic cycle diagram (temperature vs entropy) of the working fluid (air) for both the charge and discharge cycles. Various output metrics are shown to the right of the diagram. Both the cycle diagram and the output metrics respond to changes in the input parameters at the bottom of the chart. 
+This chart is an interactive thermodynamic cycle diagram (temperature vs entropy) of the working fluid (air) for both the charge and discharge cycles. Various output metrics are shown to the right of the diagram. Both the cycle diagram and the output metrics respond to changes in the input parameters at the bottom of the chart. In this simple model, the heat exchanges are considered to be perfect but the compression and expansion processes are irrevsible (controlled by the polytropic effiency slider).
 
 ## Implementation 
 I have used [d3](https://d3js.org) to render the cycle diagram (svg elements) and to add the inputs and outputs. The cycle diagram is deleted (all elements removed from the DOM) and redrawn each time an input is changed. The thermodynamic analysis itself is also coded in JavaScript
