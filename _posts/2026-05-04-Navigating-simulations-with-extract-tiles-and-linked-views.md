@@ -4,8 +4,8 @@ title: "Navigating big simulations"
 date: 2026-05-04 00:00:49 +0100
 categories: viz
 summary: "A demo-first introduction to extract-tiles and linked views for interactive exploration of large CFD extracts."
-# image: "/assets/images/extract-tiles.jpg"
-# image_alt: "Image shows a 6-stage axial compressor with an iso-surface of reverse flow."
+image: "{{site.baseurl}}/assets/images/extract-tiles.jpg"
+image_alt: "Image shows a 6-stage axial compressor with an iso-surface of reverse flow."
 ---
 
 ## Visualisation of big data is a navigation problem
