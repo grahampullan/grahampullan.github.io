@@ -4,7 +4,7 @@ title: "Navigating big simulations"
 date: 2026-05-04 00:00:49 +0100
 categories: viz
 summary: "A demo-first introduction to extract-tiles and linked views for interactive exploration of large CFD extracts."
-image: "{{site.baseurl}}/assets/images/extract-tiles.jpg"
+image: "/assets/images/extract-tiles.jpg"
 image_alt: "Image shows a 6-stage axial compressor with an iso-surface of reverse flow."
 ---
 
@@ -78,7 +78,6 @@ The analysis experience, and hence our ability to derive new findings, is comple
 Starting from a source GLB mesh, such as one exported from ParaView, the *tile builder* partitions the geometry into a multi-resolution hierarchy and writes a manifest JSON plus the individual tile payloads as GLB files. The tile builder is written in Python, using [trimesh](https://trimesh.org) for GLB parsing and mesh subsetting and [Open3D](https://www.open3d.org) for quadric error mesh simplification. 
 
 The viewer is written in JavaScript on top of [three.js](https://threejs.org). It performs frustum culling and screen-space-error based level-of-detail selection in plain client-side code, then streams manifests and tiles on demand and keeps a small in-memory cache of recently used tiles.
-
 
 
 
