@@ -32,7 +32,7 @@ The video shows how extract-tiles and linked views solve this problem. The press
 
 ## A live demo of extract-tiles
 
-The live demo below focuses on the compressor view on its own. As you zoom and rotate, different parts of the machine are loaded and shown at different levels of detail; the time snapshot is controlled by a slider in the dropdown GUI.
+The live demo below focus on the extract-tile rendering of the compressor. As you zoom and rotate, different parts of the machine are loaded and shown at different levels of detail; the time snapshot is controlled by a slider in the dropdown GUI.
 
 <div style="position:relative;padding-top:62.5%;margin:1.5rem 0;">
   <iframe
